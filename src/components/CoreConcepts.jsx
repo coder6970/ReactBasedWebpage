@@ -7,7 +7,7 @@ export default function Coreconcepts() {
       <h2>Core Concepts</h2>
       <ul>
         {CORE_CONCEPTS.map((obj) => (
-          <CoreConcept key={obj.title} {...obj} />
+          <CoreConcept key={obj.title} {...obj} />   //here key is not important as it is static but use for best practice as what in the future it has to be made dynamic
         ))}
       </ul>
     </div>
